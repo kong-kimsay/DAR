@@ -1,0 +1,208 @@
+<!-- BEGIN PAGE BREADCRUMB -->
+<ul class="page-breadcrumb breadcrumb">
+	<li>
+		<a href="#">Home</a><i class="fa fa-circle"></i>
+	</li>
+	<li>
+		<a href="layout_blank_page.html">Features</a>
+		<i class="fa fa-circle"></i>
+	</li>
+	<li class="active">
+		Blank Page Layout
+	</li>
+</ul>
+<!-- END PAGE BREADCRUMB -->
+<!-- BEGIN PORTLET-->
+<div class="portlet light">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="fa fa-cogs font-blue-steel"></i>
+			<span class="caption-subject font-blue-steel bold uppercase">សកម្មភាព</span>
+		</div>
+		<div class="inputs">
+			<div class="portlet-input input-small input-inline">
+				<div class="input-icon right">
+					<i class="fa fa-search"></i>
+					<%= form_for('hr/employee/',:method => :get) do |g| %>
+					<%= g.text_field(:search,:class => 'form-control form-control-solid',
+					:placeholder => "ស្វែងរក...") %>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portlet-body form">
+		<%= link_to("បញ្ចូលមន្ត្រីថ្មី" , {:controller => 'hr/employee/employeeinfo',
+					:action => :index }, :class => 'btn green') %>
+	</div>
+</div>
+<!-- END PORTLET-->
+<div class="row">
+	<div class="col-md-3">
+		<div class="portlet light profile-sidebar-portlet">
+			<!-- SIDEBAR USERPIC -->
+			<div class="profile-userpic">
+				<img src="/assets/pages/media/profile/profile_user.jpg" class="img-responsive" alt="">
+			</div>
+			<!-- END SIDEBAR USERPIC -->
+			<!-- SIDEBAR USER TITLE -->
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">
+					គង់ គីមសាយ
+				</div>
+				<div class="profile-usertitle-job">
+					មន្ត្រី
+				</div>
+			</div>
+			<!-- END SIDEBAR USER TITLE -->
+			<!-- SIDEBAR BUTTONS -->
+			<div class="profile-userbuttons" style="padding-bottom: 25px;">
+				<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+				<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+			</div>
+			<!-- END SIDEBAR BUTTONS -->
+		</div>
+	</div>
+		<!-- END PORTLET MAIN -->
+		<!-- PORTLET MAIN -->
+		<div class="col-md-3">
+			<div class="portlet light profile-sidebar-portlet">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="/assets/pages/media/profile/profile.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						គង់ គីមសាយ
+					</div>
+					<div class="profile-usertitle-job">
+						មន្ត្រី
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="padding-bottom: 25px;">
+					<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+					<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+			</div>
+		</div>
+			<!-- END PORTLET MAIN -->
+
+			<!-- PORTLET MAIN -->
+		<div class="col-md-3">
+			<div class="portlet light profile-sidebar-portlet">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="/assets/pages/media/users/avatar80_2.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						គង់ គីមសាយ
+					</div>
+					<div class="profile-usertitle-job">
+						មន្ត្រី
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="padding-bottom: 25px;">
+					<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+					<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+			</div>
+		</div>
+			<!-- END PORTLET MAIN -->
+
+
+			<!-- PORTLET MAIN -->
+		<div class="col-md-3">
+			<div class="portlet light profile-sidebar-portlet">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="/assets/pages/media/profile/photo3.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						គង់ គីមសាយ
+					</div>
+					<div class="profile-usertitle-job">
+						មន្ត្រី
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="padding-bottom: 25px;">
+					<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+					<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+			</div>
+		</div>
+			<!-- END PORTLET MAIN -->
+
+
+			<!-- PORTLET MAIN -->
+		<div class="col-md-3">
+			<div class="portlet light profile-sidebar-portlet">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="/assets/pages/media/users/avatar80_3.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						គង់ គីមសាយ
+					</div>
+					<div class="profile-usertitle-job">
+						មន្ត្រី
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="padding-bottom: 25px;">
+					<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+					<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+			</div>
+		</div>
+			<!-- END PORTLET MAIN -->
+
+			<!-- PORTLET MAIN -->
+		<div class="col-md-3">
+			<div class="portlet light profile-sidebar-portlet">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="/assets/pages/media/users/avatar80_4.jpg" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						គង់ គីមសាយ
+					</div>
+					<div class="profile-usertitle-job">
+						មន្ត្រី
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="padding-bottom: 25px;">
+					<button type="button" class="btn btn-circle green-haze btn-sm">ពត៌មានលំអិត</button>
+					<button type="button" class="btn btn-circle btn-danger btn-sm">កែប្រែពត៌មាន</button>
+				</div>
+				<!-- END SIDEBAR BUTTONS -->
+			</div>
+		</div>
+			<!-- END PORTLET MAIN -->
+		</div>

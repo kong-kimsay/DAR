@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  title: MyString
+  khtitle: MyString
+  descritpion: MyString
+  khdescription: MyString
+  useradd: MyString
+  userupdate: MyString
+  datecreate: 2015-04-09 13:52:54
+  dateupdate: 2015-04-09 13:52:54
+
+two:
+  code: MyString
+  title: MyString
+  khtitle: MyString
+  descritpion: MyString
+  khdescription: MyString
+  useradd: MyString
+  userupdate: MyString
+  datecreate: 2015-04-09 13:52:54
+  dateupdate: 2015-04-09 13:52:54
