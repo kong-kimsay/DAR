@@ -1,39 +1,59 @@
+<div class="col-md-12 col-sm-12">
+  <div class="portlet blue-hoki box">
+    <div class="portlet-title">
+      <div class="caption">
+        <i class="fa fa-users"></i> <%= @hr_config_religion.khtitle %> | <%= @hr_config_religion.title %>
+      </div>
+      <div class="actions">
+        <%= link_to raw("<i class='fa fa-angle-left'></i>  ត្រលប់ក្រោយ"), hr_config_religions_path, :class => "btn btn-circle btn-default" %>
+        <%= link_to raw("<i class='fa fa-pencil'></i> កែប្រែ"), edit_hr_config_religion_path(@hr_config_religion),
+        :class => "btn btn-circle btn-default" %>
+      </div>
+    </div>
+    <div class="portlet-body">
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          កូដសំគាល់ | Code:
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_religion.code %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ឈ្មេាះ | Title
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_religion.title %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ឈ្មេាះជាភាសាខ្មែរ | Khmer Title
+        </div>
+          <div class="col-md-7 value">
+            <%= @hr_config_religion.khtitle %>
+          </div>
+        
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ពិពណ៌នា | Description
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_religion.description %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ពិពណ៌នាជាភាសាខ្មែរ | Khmer Description
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_religion.khdescription %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Code:</strong>
-  <%= @hr_config_religion.code %>
-</p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @hr_config_religion.title %>
-</p>
-
-<p>
-  <strong>Khtitle:</strong>
-  <%= @hr_config_religion.khtitle %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @hr_config_religion.description %>
-</p>
-
-<p>
-  <strong>Khdescription:</strong>
-  <%= @hr_config_religion.khdescription %>
-</p>
-
-<p>
-  <strong>Usercreate:</strong>
-  <%= @hr_config_religion.usercreate %>
-</p>
-
-<p>
-  <strong>Userupdate:</strong>
-  <%= @hr_config_religion.userupdate %>
-</p>
-
-<%= link_to 'Edit', edit_hr_config_religion_path(@hr_config_religion) %> |
-<%= link_to 'Back', hr_config_religions_path %>

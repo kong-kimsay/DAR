@@ -1,5 +1,16 @@
-<h1>New hr_config_religion</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Back', hr_config_religions_path %>
+<div class="portlet light">
+	<div class="portlet-title">
+		<div class="caption">
+			<i class="fa fa-heart font-blue-steel"></i>
+			<span class="caption-subject bold uppercase font-blue-steel"> សាសនា</span>
+			<span class="caption-helper"> បន្ថែម</span>
+		</div>
+		<div class="actions">
+			<%= link_to raw("<i class='fa fa-angle-left'></i>  ត្រលប់ក្រោយ"), hr_config_religions_path, :class => "btn btn-circle btn-default" %>
+			<a href="javascript:;" class="btn btn-circle btn-default btn-icon-only fullscreen"></a>
+		</div>
+	</div>
+	<div class="portlet-body">
+		<%= render 'form' %>
+	</div>
+</div>
