@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   namespace :hr do
     namespace :config do
+      resources :ministries
+    end
+  end
+
+  namespace :hr do
+    namespace :config do
       resources :provinces
     end
   end

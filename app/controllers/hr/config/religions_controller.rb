@@ -28,7 +28,7 @@ class Hr::Config::ReligionsController < ApplicationController
 
     respond_to do |format|
       if @hr_config_religion.save
-        format.html { redirect_to @hr_config_religion, notice: 'Religion was successfully created.' }
+        format.html { redirect_to @hr_config_religion, notice: 'បន្ថែមទទួលបានជោគ' }
         format.json { render :show, status: :created, location: @hr_config_religion }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class Hr::Config::ReligionsController < ApplicationController
   def update
     respond_to do |format|
       if @hr_config_religion.update(hr_config_religion_params)
-        format.html { redirect_to @hr_config_religion, notice: 'Religion was successfully updated.' }
+        format.html { redirect_to @hr_config_religion, notice: 'បន្ទាន់សម័យទទួលបានជោគជ័យ' }
         format.json { render :show, status: :ok, location: @hr_config_religion }
       else
         format.html { render :edit }

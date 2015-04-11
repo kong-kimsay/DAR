@@ -28,7 +28,7 @@ class Hr::Config::CountriesController < ApplicationController
 
     respond_to do |format|
       if @hr_config_country.save
-        format.html { redirect_to @hr_config_country, notice: 'Country was successfully created.' }
+        format.html { redirect_to @hr_config_country, notice: 'បន្ថែមទទួលបានជោគ' }
         format.json { render :show, status: :created, location: @hr_config_country }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class Hr::Config::CountriesController < ApplicationController
   def update
     respond_to do |format|
       if @hr_config_country.update(hr_config_country_params)
-        format.html { redirect_to @hr_config_country, notice: 'Country was successfully updated.' }
+        format.html { redirect_to @hr_config_country, notice: 'បន្ទាន់សម័យទទួលបានជោគជ័យ' }
         format.json { render :show, status: :ok, location: @hr_config_country }
       else
         format.html { render :edit }
