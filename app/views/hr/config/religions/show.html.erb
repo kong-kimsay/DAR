@@ -1,5 +1,5 @@
 <div class="col-md-12 col-sm-12">
-  <div class="portlet blue-hoki box">
+  <div class="portlet blue-steel box">
     <div class="portlet-title">
       <div class="caption">
         <i class="fa fa-users"></i> <%= @hr_config_religion.khtitle %> | <%= @hr_config_religion.title %>
@@ -11,6 +11,11 @@
       </div>
     </div>
     <div class="portlet-body">
+      <%	if notice.to_s != ''  %>
+          <div class="alert alert-info">
+            <p id="notice"><%= notice %></p>
+          </div>
+      <% end %>
       <div class="row static-info">
         <div class="col-md-5 name">
           កូដសំគាល់ | Code:

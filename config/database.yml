@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: #dar_production
+  database: dar_production
   username: root
-  password: <%= ENV['kks'] %>
+  password: <%= ENV["SECRET_KEY_BASE"] %>

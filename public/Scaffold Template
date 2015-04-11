@@ -1,0 +1,7 @@
+Rails Generate Scaffold Template
+
+rails g scaffold “location and name of scaffold” code:string title:string
+khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
+
+
+rails g scaffold hr/config/province code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer

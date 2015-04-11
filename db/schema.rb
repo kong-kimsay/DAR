@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150410104921) do
+ActiveRecord::Schema.define(version: 20150410155727) do
 
   create_table "hr_config_countries", force: true do |t|
     t.string   "code"
@@ -31,6 +31,18 @@ ActiveRecord::Schema.define(version: 20150410104921) do
     t.string   "khtitle"
     t.text     "description"
     t.text     "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_provinces", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
     t.integer  "usercreate"
     t.integer  "userupdate"
     t.datetime "created_at"

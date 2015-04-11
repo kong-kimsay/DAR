@@ -1,8 +1,8 @@
 <div class="row">
   <%= form_for(@hr_config_nation, :html => {:class => "form-horizontal form-row-seperated"}) do |f| %>
   <% if @hr_config_nation.errors.any? %>
-  <div id="error_explanation">
-    <h2><%= pluralize(@hr_config_nation.errors.count, "error") %> prohibited this hr_config_country from being saved:</h2>
+  <div class="alert alert-danger">
+    <p><%= pluralize(@hr_config_nation.errors.count, "error") %> prohibited this from being saved:</p>
     <ul>
       <% @hr_config_nation.errors.full_messages.each do |message| %>
       <li><%= message %></li>
