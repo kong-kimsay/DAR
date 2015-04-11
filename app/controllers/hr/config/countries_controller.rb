@@ -56,7 +56,7 @@ class Hr::Config::CountriesController < ApplicationController
   def destroy
     @hr_config_country.destroy
     respond_to do |format|
-      format.html { redirect_to hr_config_countries_url, notice: 'Country was successfully destroyed.' }
+      format.html { redirect_to hr_config_countries_url, notice: 'លុបទទួលបានជោគជ័យ' }
       format.json { head :no_content }
     end
   end

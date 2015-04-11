@@ -56,7 +56,7 @@ class Hr::Config::ReligionsController < ApplicationController
   def destroy
     @hr_config_religion.destroy
     respond_to do |format|
-      format.html { redirect_to hr_config_religions_url, notice: 'Religion was successfully destroyed.' }
+      format.html { redirect_to hr_config_religions_url, notice: 'លុបទទួលបានជោគជ័យ' }
       format.json { head :no_content }
     end
   end
