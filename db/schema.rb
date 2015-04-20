@@ -11,7 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150420025022) do
+ActiveRecord::Schema.define(version: 20150420082001) do
+
+  create_table "hr_config_careercodes", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_certifications", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "hr_config_countries", force: true do |t|
     t.string   "code"
@@ -19,6 +43,30 @@ ActiveRecord::Schema.define(version: 20150420025022) do
     t.string   "khtitle"
     t.text     "description"
     t.text     "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_educations", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_initials", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
     t.integer  "usercreate"
     t.integer  "userupdate"
     t.datetime "created_at"
