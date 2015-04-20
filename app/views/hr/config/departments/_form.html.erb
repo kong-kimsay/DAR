@@ -1,0 +1,47 @@
+<div class="row">
+  <%= form_for(@hr_config_department, :html => {:class => "form-horizontal form-row-seperated"}) do |f| %>
+      <% if @hr_config_department.errors.any? %>
+          <div class="alert alert-danger">
+            <p><%= pluralize(@hr_config_department.errors.count, "error") %> prohibited this from being saved:</p>
+            <ul>
+              <% @hr_config_department.errors.full_messages.each do |message| %>
+                  <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+      <% end %>
+      <div class="form-body">
+        <div class="form-group">
+          <label class="col-md-2 control-label">កូដសំគាល់​ | Code: </label>
+          <div class="col-md-10">
+            <%= f.text_field :code,:class => 'form-control' %>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-2 control-label">ឈ្មេាះ​ | Title: </label>
+          <div class="col-md-4">
+            <%= f.text_field :title,:class => 'form-control' %>
+          </div>
+          <label class="col-md-2 control-label">ឈ្មេាះ​ខ្មែរ | Khmer Title: </label>
+          <div class="col-md-4">
+            <%= f.text_field :khtitle,:class => 'form-control' %>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="col-md-2 control-label">ពិពណ៌នា | Description: </label>
+          <div class="col-md-4">
+            <%= f.text_area :description,:class => 'form-control' %>
+          </div>
+          <label class="col-md-2 control-label">ពិពណ៌នាភាសារខ្មែរ | Khmer Description: </label>
+          <div class="col-md-4">
+            <%= f.text_area :khdescription,:class => 'form-control' %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-12">
+            <%= f.submit "រក្សាទុក", :class => "pull-right btn blue-steel" %>
+          </div>
+        </div>
+      </div>
+      </div>
+  <% end %>

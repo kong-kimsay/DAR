@@ -1,0 +1,49 @@
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="portlet light">
+      <div class="portlet-title">
+        <div class="caption">
+          <i class="fa fa-bank font-blue-sharp"></i>
+          <span class="caption-subject font-blue-sharp bold uppercase"> ក្រសួង</span>
+        </div>
+        <div class="actions">
+          <%= link_to raw("<i class='fa fa-plus'></i> បន្ថែម"), new_hr_config_ministry_path, :class => "btn btn-circle btn-default" %>
+        </div>
+      </div>
+      <div class="portlet-body">
+        <div class="table-scrollable table-scrollable-borderless">
+          <table class="table table-hover table-light">
+            <thead>
+            <tr>
+              <th>កូដសំគាល់ | Code</th>
+              <th>ឈ្មេាះ | Title</th>
+              <th>ឈ្មេាះជាភាសាខ្មែរ | Khmer Title</th>
+              <th>ពិពណ៌នា | Description</th>
+              <th>ពិពណ៌នាជាភាសាខ្មែរ | Khmer Description</th>
+              <th colspan="6"></th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <% @hr_config_ministries.each do |hr_config_ministry| %>
+                <tr>
+                  <td><%= hr_config_ministry.code %></td>
+                  <td><%= hr_config_ministry.title %></td>
+                  <td><%= hr_config_ministry.khtitle %></td>
+                  <td><%= hr_config_ministry.description %></td>
+                  <td><%= hr_config_ministry.khdescription %></td>
+                  <td><%= link_to raw("<i class='fa fa-list-alt'></i>"), hr_config_ministry %></td>
+                  <td><%= link_to raw("<i class='fa fa-pencil'></i>"), edit_hr_config_ministry_path(hr_config_ministry) %></td>
+                  <td><%= link_to raw("<i class='fa fa-trash-o'></i>"), hr_config_ministry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                </tr>
+            <% end %>
+            </tbody>
+          </table>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
