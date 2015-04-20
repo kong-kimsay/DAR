@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   namespace :hr do
     namespace :config do
+      resources :languages
+    end
+  end
+
+  namespace :hr do
+    namespace :config do
       resources :offices
     end
   end
