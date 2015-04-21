@@ -668,7 +668,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<li>
 								<div class="mega-menu-content">
 									<div class="row">
-										<div class="col-md-3">
+										<div class="col-md-2">
 											<ul class="mega-menu-submenu">
 												<li>
 													<h3>ពត៌មានទូទៅ</h3>
@@ -694,13 +694,41 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <%= link_to raw("<i class='fa fa-weixin'></i>
 													ភាសា"), :controller => "hr/config/languages" %>
 												</li>
-                                                <li>
-                                                    <%= link_to raw("<i class='fa fa-user'></i>
-													    ងារ"), :controller => "hr/config/initials" %>
-                                                </li>
 											</ul>
 										</div>
-										<div class="col-md-3">
+                                        <div class="col-md-2">
+                                        <ul class="mega-menu-submenu">
+                                          <li>
+                                            <h3>ពត៌មានផ្ទាល់ខ្លួន</h3>
+                                          </li>
+                                          <li>
+                                            <%= link_to raw("<i class='fa fa-user'></i>
+													    ងារ"), :controller => "hr/config/initials" %>
+                                          </li>
+                                          <li>
+                                            <%= link_to raw('<i class="fa fa-flag"></i>
+													ប្រទេស'), :controller => "hr/config/countries" %>
+                                          </li>
+                                          <li>
+                                            <%= link_to raw("<i class='fa fa-users'></i>
+													ប្រជាជាតិ"), :controller => "hr/config/nations" %>
+                                          </li>
+                                          <li>
+                                            <%= link_to raw("<i class='fa fa-heart'></i>
+													សាសនា"), :controller => "hr/config/religions" %>
+                                          </li>
+
+                                          <li>
+                                            <%= link_to raw("<i class='fa fa-weixin'></i>
+													ភាសា"), :controller => "hr/config/languages" %>
+                                          </li>
+                                          <li>
+                                            <%= link_to raw("<i class='fa fa-user'></i>
+													    ងារ"), :controller => "hr/config/initials" %>
+                                          </li>
+                                        </ul>
+                                      </div>
+										<div class="col-md-2">
 											<ul class="mega-menu-submenu">
 												<li>
 													<h3>ពត៌មានកាងារ</h3>
@@ -730,7 +758,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                               </li>
 											</ul>
 										</div>
-										<div class="col-md-3">
+										<div class="col-md-2">
 											<ul class="mega-menu-submenu">
 												<li>
 													<h3>ពត៌មានសិក្សា</h3>
@@ -765,14 +793,18 @@ License: You must have a valid license purchased only from themeforest(the above
 												</li>
 											</ul>
 										</div>
-										<div class="col-md-3">
+										<div class="col-md-2">
 											<ul class="mega-menu-submenu">
 												<li>
 													<h3>សកម្មភាព</h3>
 												</li>
                                                 <li>
-                                                    <%= link_to raw("<i class='fa fa-university'></i>
-												    	កំរិតសិក្សា "), :controller => "hr/config/educations" %>
+                                                    <%= link_to raw("<i class='fa fa-minus'></i>
+												    	ប្រភេទវិន័យ "), :controller => "hr/config/discipline_types" %>
+                                                </li>
+                                                <li>
+                                                    <%= link_to raw("<i class='fa fa-legal'></i>
+												        សកម្មភាពវិន័យ "), :controller => "hr/config/discipline_actions" %>
                                                 </li>
 												<li>
 													<a href="layout_fontawesome_icons.html" class="iconify">
