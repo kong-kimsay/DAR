@@ -1,0 +1,37 @@
+<h1>Listing hr_config_discipline_actions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Title</th>
+      <th>Khtitle</th>
+      <th>Description</th>
+      <th>Khdescription</th>
+      <th>Usercreate</th>
+      <th>Userupdate</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hr_config_discipline_actions.each do |hr_config_discipline_action| %>
+      <tr>
+        <td><%= hr_config_discipline_action.code %></td>
+        <td><%= hr_config_discipline_action.title %></td>
+        <td><%= hr_config_discipline_action.khtitle %></td>
+        <td><%= hr_config_discipline_action.description %></td>
+        <td><%= hr_config_discipline_action.khdescription %></td>
+        <td><%= hr_config_discipline_action.usercreate %></td>
+        <td><%= hr_config_discipline_action.userupdate %></td>
+        <td><%= link_to 'Show', hr_config_discipline_action %></td>
+        <td><%= link_to 'Edit', edit_hr_config_discipline_action_path(hr_config_discipline_action) %></td>
+        <td><%= link_to 'Destroy', hr_config_discipline_action, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Discipline action', new_hr_config_discipline_action_path %>
