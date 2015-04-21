@@ -4,4 +4,4 @@ rails g scaffold “location and name of scaffold” code:string title:string
 khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
 
 
-rails g scaffold hr/config/education code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
+rails g scaffold hr/config/DisciplineAction code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
