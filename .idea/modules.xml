@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/dar.iml" filepath="$PROJECT_DIR$/.idea/dar.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/DAR.iml" filepath="$PROJECT_DIR$/.idea/DAR.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>

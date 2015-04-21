@@ -1,0 +1,16 @@
+<div class="portlet light">
+  <div class="portlet-title">
+    <div class="caption">
+      <i class="fa fa-weixin font-blue-steel"></i>
+      <span class="caption-subject bold uppercase font-blue-steel"> ភាសា</span>
+      <span class="caption-helper"> បន្ថែម</span>
+    </div>
+    <div class="actions">
+      <%= link_to raw("<i class='fa fa-angle-left'></i>  ត្រលប់ក្រោយ"), hr_config_languages_path, :class => "btn btn-circle btn-default" %>
+      <a href="javascript:;" class="btn btn-circle btn-default btn-icon-only fullscreen"></a>
+    </div>
+  </div>
+  <div class="portlet-body">
+    <%= render 'form' %>
+  </div>
+</div>

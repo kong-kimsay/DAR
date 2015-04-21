@@ -11,7 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150411101826) do
+ActiveRecord::Schema.define(version: 20150420082001) do
+
+  create_table "hr_config_careercodes", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_certifications", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "hr_config_countries", force: true do |t|
     t.string   "code"
@@ -25,7 +49,7 @@ ActiveRecord::Schema.define(version: 20150411101826) do
     t.datetime "updated_at"
   end
 
-  create_table "hr_config_departments", force: true do |t|
+  create_table "hr_config_educations", force: true do |t|
     t.string   "code"
     t.string   "title"
     t.string   "khtitle"
@@ -37,7 +61,7 @@ ActiveRecord::Schema.define(version: 20150411101826) do
     t.datetime "updated_at"
   end
 
-  create_table "hr_config_divisions", force: true do |t|
+  create_table "hr_config_initials", force: true do |t|
     t.string   "code"
     t.string   "title"
     t.string   "khtitle"
@@ -49,7 +73,7 @@ ActiveRecord::Schema.define(version: 20150411101826) do
     t.datetime "updated_at"
   end
 
-  create_table "hr_config_ministries", force: true do |t|
+  create_table "hr_config_languages", force: true do |t|
     t.string   "code"
     t.string   "title"
     t.string   "khtitle"
@@ -67,30 +91,6 @@ ActiveRecord::Schema.define(version: 20150411101826) do
     t.string   "khtitle"
     t.text     "description"
     t.text     "khdescription"
-    t.integer  "usercreate"
-    t.integer  "userupdate"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "hr_config_offices", force: true do |t|
-    t.string   "code"
-    t.string   "title"
-    t.string   "khtitle"
-    t.text     "description"
-    t.string   "khdescription"
-    t.integer  "usercreate"
-    t.integer  "userupdate"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "hr_config_provinces", force: true do |t|
-    t.string   "code"
-    t.string   "title"
-    t.string   "khtitle"
-    t.text     "description"
-    t.string   "khdescription"
     t.integer  "usercreate"
     t.integer  "userupdate"
     t.datetime "created_at"

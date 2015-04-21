@@ -1,0 +1,45 @@
+<%= form_for(@hr_config_initial) do |f| %>
+  <% if @hr_config_initial.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hr_config_initial.errors.count, "error") %> prohibited this hr_config_initial from being saved:</h2>
+
+      <ul>
+      <% @hr_config_initial.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :code %><br>
+    <%= f.text_field :code %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :khtitle %><br>
+    <%= f.text_field :khtitle %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :khdescription %><br>
+    <%= f.text_field :khdescription %>
+  </div>
+  <div class="field">
+    <%= f.label :usercreate %><br>
+    <%= f.number_field :usercreate %>
+  </div>
+  <div class="field">
+    <%= f.label :userupdate %><br>
+    <%= f.number_field :userupdate %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
