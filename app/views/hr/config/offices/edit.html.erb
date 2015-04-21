@@ -1,0 +1,17 @@
+<div class="portlet light">
+  <div class="portlet-title">
+    <div class="caption">
+      <i class="fa fa-leanpub font-blue-steel"></i>
+      <span class="caption-subject bold uppercase font-blue-steel"> ការិយាល័យ</span>
+      <span class="caption-helper"> កែប្រែ</span>
+    </div>
+    <div class="actions">
+      <%= link_to raw("<i class='fa fa-angle-left'></i>  ត្រលប់ក្រោយ"), hr_config_offices_path, :class => "btn btn-circle btn-default" %>
+      <%= link_to raw("<i class='fa fa-list-alt'></i>  បង្ហាញ"), @hr_config_offices, :class => "btn btn-circle btn-default" %>
+      <a href="javascript:;" class="btn btn-circle btn-default btn-icon-only fullscreen"></a>
+    </div>
+  </div>
+  <div class="portlet-body">
+    <%= render 'form' %>
+  </div>
+</div>

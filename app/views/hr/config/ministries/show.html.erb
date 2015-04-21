@@ -1,0 +1,65 @@
+<div class="col-md-12 col-sm-12">
+  <div class="portlet blue-steel box">
+    <div class="portlet-title">
+      <div class="caption">
+        <i class="fa fa-bank"></i> <%= @hr_config_ministry.khtitle %> | <%= @hr_config_ministry.title %>
+      </div>
+      <div class="actions">
+        <%= link_to raw("<i class='fa fa-angle-left'></i>  ត្រលប់ក្រោយ"), hr_config_ministries_path, :class => "btn btn-circle btn-default" %>
+        <%= link_to raw("<i class='fa fa-pencil'></i> កែប្រែ"), edit_hr_config_ministry_path(@hr_config_ministry),
+                    :class => "btn btn-circle btn-default" %>
+        <%# link_to raw("<i class='fa fa-trash-o'></i> លុប"), @hr_config_ministry,
+        :class => "btn btn-circle btn-default" %>
+      </div>
+    </div>
+    <div class="portlet-body">
+      <%	if notice.to_s != ''  %>
+          <div class="alert alert-info">
+            <p id="notice"><%= notice %></p>
+          </div>
+      <% end %>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          កូដសំគាល់ | Code:
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_ministry.code %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ឈ្មេាះ | Title
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_ministry.title %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ឈ្មេាះជាភាសាខ្មែរ | Khmer Title
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_ministry.khtitle %>
+        </div>
+
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ពិពណ៌នា | Description
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_ministry.description %>
+        </div>
+      </div>
+      <div class="row static-info">
+        <div class="col-md-5 name">
+          ពិពណ៌នាជាភាសាខ្មែរ | Khmer Description
+        </div>
+        <div class="col-md-7 value">
+          <%= @hr_config_ministry.khdescription %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

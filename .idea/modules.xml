@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DAR.iml" filepath="$PROJECT_DIR$/.idea/DAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dar.iml" filepath="$PROJECT_DIR$/.idea/dar.iml" />
     </modules>
   </component>
 </project>
