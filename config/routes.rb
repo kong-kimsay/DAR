@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   namespace :hr do
     namespace :config do
+      resources :education_types
+    end
+  end
+
+  namespace :hr do
+    namespace :config do
       resources :transportations
     end
   end
