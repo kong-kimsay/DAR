@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150422082553) do
+ActiveRecord::Schema.define(version: 20150422092038) do
 
   create_table "hr_config_careercodes", force: true do |t|
     t.string   "code"
@@ -234,6 +234,23 @@ ActiveRecord::Schema.define(version: 20150422082553) do
     t.string   "first_name", limit: 20
     t.string   "last_name",  limit: 50
     t.string   "DOB"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_function_employees", force: true do |t|
+    t.string   "code",        null: false
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "khfirstname"
+    t.string   "khlastname"
+    t.string   "offtype"
+    t.string   "title"
+    t.string   "gender"
+    t.date     "dob"
+    t.string   "marital"
+    t.text     "pob"
+    t.integer  "Country_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
