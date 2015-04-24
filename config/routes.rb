@@ -1,6 +1,18 @@
 Rails.application.routes.draw do
 
   namespace :hr do
+    namespace :config do
+      resources :relationships
+    end
+  end
+
+  namespace :hr do
+    namespace :config do
+      resources :blood_types
+    end
+  end
+
+  namespace :hr do
     namespace :function do
       resources :employees
     end

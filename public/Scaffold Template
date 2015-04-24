@@ -4,6 +4,6 @@ rails g scaffold “location and name of scaffold” code:string title:string
 khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
 
 
-rails g scaffold hr/config/EducationType code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
+rails g scaffold hr/config/BloodType code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
 
 rails g scaffold hr/function/employee code:string firstname:sting lastname:string khfirstname:string khlastname:string
