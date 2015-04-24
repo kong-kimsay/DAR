@@ -20,7 +20,7 @@ $.extend($.validator.messages, {
 	number: "Prašau įvesti teisingą skaičių.",
 	digits: "Prašau naudoti tik skaitmenis.",
 	creditcard: "Prašau įvesti teisingą kreditinės kortelės numerį.",
-	equalTo: "Prašau įvestį tą pačią reikšmę dar kartą.",
+	equalTo: "Prašau įvestį tą pačią reikšmę DAR kartą.",
 	extension: "Prašau įvesti reikšmę su teisingu plėtiniu.",
 	maxlength: $.validator.format("Prašau įvesti ne daugiau kaip {0} simbolių."),
 	minlength: $.validator.format("Prašau įvesti bent {0} simbolius."),
