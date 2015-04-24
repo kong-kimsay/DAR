@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="DataSourceManagerImpl" format="xml" hash="227220836">
+  <component name="DataSourceManagerImpl" format="xml" hash="3626452953">
     <data-source source="LOCAL" name="MySQL - dar_development@localhost" uuid="540e0d97-3109-4818-b0f4-00817be5a20a">
-=======
-  <component name="DataSourceManagerImpl" format="xml" hash="230783037">
-    <data-source source="LOCAL" name="MySQL - dar_development@localhost" uuid="575bf5b7-fe0c-463d-9236-784a3ebea006">
->>>>>>> origin/master
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>

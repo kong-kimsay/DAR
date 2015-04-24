@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Code:</strong>
+  <%= @hr_function_employee.code %>
+</p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @hr_function_employee.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @hr_function_employee.lastname %>
+</p>
+
+<p>
+  <strong>Khfirstname:</strong>
+  <%= @hr_function_employee.khfirstname %>
+</p>
+
+<p>
+  <strong>Khlastname:</strong>
+  <%= @hr_function_employee.khlastname %>
+</p>
+
+<%= link_to 'Edit', edit_hr_function_employee_path(@hr_function_employee) %> |
+<%= link_to 'Back', hr_function_employees_path %>

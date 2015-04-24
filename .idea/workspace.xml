@@ -1,25 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="f1c9a300-fc2c-4df7-8799-1aad8865573b" name="Default" comment="">
+    <list default="true" id="f1c9a300-fc2c-4df7-8799-1aad8865573b" name="Default" comment="Add Contract function&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150421042541_create_hr_config_contracts.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150421042803_create_hr_config_discipline_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150421042845_create_hr_config_discipline_actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150421083232_create_hr_config_transportations.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150422082553_create_hr_config_education_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150422092038_create_hr_function_employees.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150424024813_create_hr_config_blood_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150424031641_create_hr_config_relationships.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/blood_type.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/blood_type_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/blood_types.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/blood_types.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/blood_types.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/blood_types_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/blood_types_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/blood_types_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/blood_types_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/contract.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/contract_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/contracts.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/contracts.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/contracts.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/contracts_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/contracts_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/contracts_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/contracts_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/discipline_action.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/discipline_action_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/discipline_actions.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/discipline_actions.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/discipline_actions.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/discipline_actions_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/discipline_actions_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/discipline_actions_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/discipline_actions_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/discipline_type.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/discipline_type_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/discipline_types.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/discipline_types.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/discipline_types.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/discipline_types_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/discipline_types_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/discipline_types_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/discipline_types_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/education_type.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/education_type_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/education_types.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/education_types.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/education_types.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/education_types_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/education_types_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/education_types_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/education_types_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/function/employee.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/function/employee_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/function/employees.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/function/employees.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/function/employees.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/function/employees_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/function/employees_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/function/employees_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/function/employees_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/function.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/relationship.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/relationship_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/relationships.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/relationships.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/relationships.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/relationships_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/relationships_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/relationships_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/relationships_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/blood_types/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/contracts/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_actions/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/discipline_types/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/education_types/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/relationships/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/config/transportations/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/hr/function/employees/show.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/hr/config/transportation.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/hr/config/transportation_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/hr/config/transportations.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/hr/config/transportations.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/hr/config/transportations.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/hr/config/transportations_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/hr/config/transportations_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/hr/config/transportations_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/helpers/hr/config/transportations_helper_test.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__DAR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__dar.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/DAR.iml" afterPath="$PROJECT_DIR$/.idea/dar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__DAR.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__DAR.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Scaffold Template" afterPath="$PROJECT_DIR$/public/Scaffold Template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/educations/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/educations/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/initials/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/initials/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/hr/config/careercode.rb" afterPath="$PROJECT_DIR$/app/models/hr/config/careercode.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dar.iml" afterPath="$PROJECT_DIR$/.idea/dar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/careercodes/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/careercodes/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/certifications/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/certifications/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/educations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/educations/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/initials/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/initials/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/educations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/educations/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/initials/index.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/initials/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/educations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/educations/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/initials/new.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/initials/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/educations/show.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/educations/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/hr/config/initials/show.html.erb" afterPath="$PROJECT_DIR$/app/views/hr/config/initials/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/tmp/" />
-=======
-    <list default="true" id="6087da53-3595-4113-a743-74334e7831ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Scaffold Template" afterPath="$PROJECT_DIR$/public/Scaffold Template" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <ignored path="DAR.iws" />
-    <ignored path=".idea/workspace.xml" />
->>>>>>> origin/master
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,13 +183,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/dar@All_tests_in_DAR__dar.coverage" NAME="All tests in DAR: dar Coverage Results" MODIFIED="1429590127691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
+    <SUITE FILE_PATH="coverage/dar@Development__DAR.coverage" NAME="Development: DAR Coverage Results" MODIFIED="1429884418386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DAR" />
     <SUITE FILE_PATH="coverage/dar@test__dar.coverage" NAME="test: dar Coverage Results" MODIFIED="1428680724997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
-    <SUITE FILE_PATH="coverage/dar@Development__dar.coverage" NAME="Development: dar Coverage Results" MODIFIED="1428744905537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
-    <SUITE FILE_PATH="coverage/dar@Production__dar.coverage" NAME="Production: dar Coverage Results" MODIFIED="1428680696328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
-=======
-    <SUITE FILE_PATH="coverage/DAR@Development__DAR.coverage" NAME="Development: DAR Coverage Results" MODIFIED="1429518966754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DAR" />
->>>>>>> origin/master
+    <SUITE FILE_PATH="coverage/dar@Production__DAR.coverage" NAME="Production: DAR Coverage Results" MODIFIED="1429588831094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
+    <SUITE FILE_PATH="coverage/dar@Development__dar.coverage" NAME="Development: dar Coverage Results" MODIFIED="1429588674011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
+    <SUITE FILE_PATH="coverage/dar@Production__dar.coverage" NAME="Production: dar Coverage Results" MODIFIED="1429588772320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dar" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -58,99 +210,75 @@
         <option name="myItemId" value="MySQL - dar_development@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
-      <PATH_ELEMENT>
-        <option name="myItemId" value="dar_development" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
->>>>>>> origin/master
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-<<<<<<< HEAD
     <favorites_list name="dar" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="departments_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/departments_controller.rb">
+      <file leaf-file-name="employee.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/hr/function/employee.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2240">
-              <caret line="58" column="86" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+              <caret line="1" column="104" selection-start-line="1" selection-start-column="104" selection-end-line="1" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="divisions_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/divisions_controller.rb">
+      <file leaf-file-name="employeeinfo_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/hr/employee/employeeinfo_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="2240">
-              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="392">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ministries_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/ministries_controller.rb">
+      <file leaf-file-name="employees_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/hr/function/employees_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="2240">
-              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2240">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nations_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/nations_controller.rb">
+      <file leaf-file-name="careercodes_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/careercodes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="2240">
-              <caret line="58" column="82" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2240">
+              <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offices_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/offices_controller.rb">
+      <file leaf-file-name="careercode.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/hr/config/careercode.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1148" max-vertical-offset="2240">
-              <caret line="58" column="82" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+              <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="provinces_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/provinces_controller.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/hr/function/employees/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2240">
-              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="religions_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/religions_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.720121" vertical-offset="1148" max-vertical-offset="2240">
-              <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.6979969" vertical-offset="1451" max-vertical-offset="2520">
+              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-=======
-    <favorites_list name="DAR" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
->>>>>>> origin/master
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -158,69 +286,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/app/views/hr/config/countries/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/nations/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/provinces/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/religions/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/provinces/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/provinces/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/provinces/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/nations/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/countries/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/provinces/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/religions/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/ministries/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/ministries/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/ministries/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/ministries/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/ministries/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/divisions/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/divisions/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/divisions/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/divisions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/divisions/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/departments/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/departments/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/departments/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/departments/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/departments/show.html.erb" />
-        <option value="$PROJECT_DIR$/public/Scaffold Template" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/offices/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/offices/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/offices/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/offices/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/offices/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/hr/config/countries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/hr/config/departments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/hr/config/divisions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/hr/config/ministries_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/hr/config/nations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/hr/config/offices_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/hr/config/provinces_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/hr/config/religions_controller.rb" />
-=======
-        <option value="$PROJECT_DIR$/app/views/hr/config/languages/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/languages/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/languages/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/languages/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/languages/show.html.erb" />
-        <option value="$PROJECT_DIR$/public/Scaffold Template" />
+        <option value="$PROJECT_DIR$/app/controllers/hr/config/offices_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/nations/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/certifications/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/educations/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/educations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/educations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/educations/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/initials/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/initials/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/initials/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/initials/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/initials/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/contracts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/contracts/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/contracts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/contracts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/contracts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_actions/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/hr/config/certifications/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/certifications/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/certifications/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/hr/config/certifications/show.html.erb" />
->>>>>>> origin/master
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_actions/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_types/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_types/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_types/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_actions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_types/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_actions/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_actions/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/discipline_types/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/transportations/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/careercodes/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/transportations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/transportations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/transportations/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/transportations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/education_types/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/educations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/education_types/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/education_types/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/education_types/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/hr/config/education_types/show.html.erb" />
+        <option value="$PROJECT_DIR$/public/Scaffold Template" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150422092038_create_hr_function_employees.rb" />
+        <option value="$PROJECT_DIR$/app/models/hr/config/careercode.rb" />
+        <option value="$PROJECT_DIR$/app/views/hr/function/employees/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/hr/function/employee.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/hr/function/employees_controller.rb" />
       </list>
     </option>
   </component>
@@ -235,15 +351,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
     <option name="width" value="1440" />
     <option name="height" value="900" />
-=======
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1535" />
-    <option name="height" value="876" />
->>>>>>> origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,11 +377,11 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="dar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
@@ -280,18 +389,6 @@
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="dar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dar" />
-=======
-              <option name="myItemId" value="DAR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -301,7 +398,39 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -319,7 +448,37 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -341,7 +500,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DAR" />
+              <option name="myItemId" value="dar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,7 +512,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,13 +560,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="function" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -379,7 +592,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,29 +618,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nations" />
->>>>>>> origin/master
+              <option name="myItemId" value="function" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="dar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-=======
-              <option name="myItemId" value="DAR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -421,72 +636,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="certifications" />
->>>>>>> origin/master
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="dar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dar" />
-=======
-              <option name="myItemId" value="DAR" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAR" />
->>>>>>> origin/master
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="true" />
-  </component>
-  <component name="RunManager" selected="Rails.Development: dar">
-=======
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: DAR">
->>>>>>> origin/master
+    <configuration default="false" name="All tests in DAR: dar" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="DAR" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -537,7 +746,6 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-<<<<<<< HEAD
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -570,8 +778,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-=======
->>>>>>> origin/master
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -581,7 +807,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-<<<<<<< HEAD
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -610,33 +835,54 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-=======
->>>>>>> origin/master
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
-<<<<<<< HEAD
-=======
-      <arguments />
->>>>>>> origin/master
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <list size="4">
-<<<<<<< HEAD
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: dar" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: dar" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: dar" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: dar" />
-=======
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: DAR" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: DAR" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: DAR" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: DAR" />
->>>>>>> origin/master
+    <configuration default="false" name="Development: DAR" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="DAR" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development: DAR" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: DAR" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec: DAR" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test: DAR" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in DAR: dar" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in DAR: dar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -644,12 +890,48 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
       <changelist id="f1c9a300-fc2c-4df7-8799-1aad8865573b" name="Default" comment="" />
       <created>1428680062827</created>
       <option name="number" value="Default" />
       <updated>1428680062827</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/.generators&#10;&#9;.idea/.name&#10;&#9;.idea/.rakeTasks&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/modules.xml&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1429586713352</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1429586713352</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/.generators&#10;&#9;.idea/.name&#10;&#9;.idea/.rakeTasks&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/modules.xml&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1429590095847</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1429590095847</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/.generators&#10;&#9;.idea/.name&#10;&#9;.idea/.rakeTasks&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/modules.xml&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1429590114398</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1429590114399</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/.generators&#10;&#9;.idea/.name&#10;&#9;.idea/.rakeTasks&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/modules.xml&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1429590123389</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1429590123389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Design career code, certification, initial &#10;">
+      <created>1429590199630</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1429590199630</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Contract function&#10;">
+      <created>1429591183484</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1429591183484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -673,104 +955,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17990655" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15537383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15379113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="540" y="145" width="360" height="610" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17310444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="540" y="145" width="360" height="610" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23598132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23481308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23714954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17990655" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15537383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283767" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23714954" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15164521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="540" y="145" width="360" height="610" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23598132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17310444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="540" y="145" width="360" height="610" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-=======
-      <changelist id="6087da53-3595-4113-a743-74334e7831ea" name="Default" comment="" />
-      <created>1429497973846</created>
-      <option name="number" value="Default" />
-      <updated>1429497973846</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="false" />
-    <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29295427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22772941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1312793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29295427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22772941" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1312793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23481308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -788,602 +1017,378 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-<<<<<<< HEAD
-    <option name="LAST_COMMIT_MESSAGE" value="" />
-=======
->>>>>>> origin/master
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/.generators&#10;&#9;.idea/.name&#10;&#9;.idea/.rakeTasks&#10;&#9;.idea/dataSources.ids&#10;&#9;.idea/dataSources.local.xml&#10;&#9;.idea/dataSources.xml&#10;&#9;.idea/misc.xml&#10;&#9;.idea/modules.xml&#10;&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Design career code, certification, initial &#10;" />
+    <MESSAGE value="Add Contract function&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Contract function&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1932">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-=======
-    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_types/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="1680">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/48738439/540e0d97-3109-4818-b0f4-00817be5a20a/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.680261" vertical-offset="171" max-vertical-offset="784">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/provinces/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19310345" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/religions/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19310345" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="4" column="121" selection-start-line="4" selection-start-column="121" selection-end-line="4" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/provinces/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14482759" vertical-offset="0" max-vertical-offset="588">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/provinces/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2413793" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/provinces/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09137931" vertical-offset="31" max-vertical-offset="644">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/provinces/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1932">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/religions/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6803069" vertical-offset="560" max-vertical-offset="1932">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044585988" vertical-offset="56" max-vertical-offset="1456">
-          <caret line="3" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/ministries/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14659686" vertical-offset="0" max-vertical-offset="616">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7133758" vertical-offset="0" max-vertical-offset="628">
-          <caret line="16" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/ministries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34205934" vertical-offset="0" max-vertical-offset="1512">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044585988" vertical-offset="0" max-vertical-offset="1624">
-          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/ministries/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6687898" vertical-offset="0" max-vertical-offset="628">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="1932">
-          <caret line="1" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/ministries/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2206898" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/ministries/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28965518" vertical-offset="224" max-vertical-offset="1932">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/divisions/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1456">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7716644" vertical-offset="0" max-vertical-offset="1456">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/divisions/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.878788" vertical-offset="0" max-vertical-offset="644">
-          <caret line="14" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11554333" vertical-offset="0" max-vertical-offset="727">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8101789" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/divisions/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17902814" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="5" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.18285714" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14322251" vertical-offset="0" max-vertical-offset="782">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.16382253" vertical-offset="0" max-vertical-offset="586">
+          <caret line="4" column="68" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/divisions/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57289004" vertical-offset="0" max-vertical-offset="782">
-          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-33.454544" vertical-offset="0" max-vertical-offset="1248">
+          <caret line="46" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/divisions/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_actions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14322251" vertical-offset="0" max-vertical-offset="1932">
-          <caret line="4" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.32764506" vertical-offset="0" max-vertical-offset="586">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_actions/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <caret line="6" column="149" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70859873" vertical-offset="19743" max-vertical-offset="29008">
-          <caret line="721" column="62" selection-start-line="721" selection-start-column="62" selection-end-line="721" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/departments/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19546248" vertical-offset="0" max-vertical-offset="1988">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/offices/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2478185" vertical-offset="0" max-vertical-offset="1456">
+        <state vertical-scroll-proportion="0.78507465" vertical-offset="578" max-vertical-offset="1248">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_types/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044585988" vertical-offset="84" max-vertical-offset="1484">
-          <caret line="4" column="80" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-=======
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.098495215" vertical-offset="0" max-vertical-offset="731">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_types/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.16415869" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_actions/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
+        <state vertical-scroll-proportion="0.13132694" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/discipline_types/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.80300957" vertical-offset="517" max-vertical-offset="1248">
+          <caret line="46" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/transportations/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7185629" vertical-offset="144" max-vertical-offset="1440">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/languages/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1647598" vertical-offset="595" max-vertical-offset="1248">
+        <state vertical-scroll-proportion="2.102857" vertical-offset="0" max-vertical-offset="1248">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/transportations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4871795" vertical-offset="16164" max-vertical-offset="24840">
-          <caret line="683" column="52" selection-start-line="683" selection-start-column="52" selection-end-line="683" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7664671" vertical-offset="0" max-vertical-offset="3024">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/languages/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35207823" vertical-offset="0" max-vertical-offset="552">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/languages/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64792174" vertical-offset="863" max-vertical-offset="1272">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/languages/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58924204" vertical-offset="119" max-vertical-offset="528">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/languages/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7017115" vertical-offset="792" max-vertical-offset="1680">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#608#731#0#RHTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27169812" vertical-offset="0" max-vertical-offset="530">
-          <caret line="6" column="152" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5205479" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding />
+        <state vertical-scroll-proportion="0.13714285" vertical-offset="0" max-vertical-offset="528">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1272">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/transportations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22857143" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/transportations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32764506" vertical-offset="0" max-vertical-offset="586">
+          <caret line="8" column="97" selection-start-line="8" selection-start-column="97" selection-end-line="8" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/transportations/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18285714" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72571427" vertical-offset="723" max-vertical-offset="1248">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="552">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73142856" vertical-offset="0" max-vertical-offset="528">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1248">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20477815" vertical-offset="0" max-vertical-offset="1272">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13714285" vertical-offset="0" max-vertical-offset="528">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="528">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/education_types/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18285714" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/educations/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Scaffold Template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2937063" vertical-offset="0" max-vertical-offset="572">
+          <caret line="6" column="152" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/employee/employeeinfo/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8484849" vertical-offset="28" max-vertical-offset="5964">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="207" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.363636" vertical-offset="11609" max-vertical-offset="30240">
+          <caret line="428" column="104" selection-start-line="428" selection-start-column="104" selection-end-line="428" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/blood_types/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16438356" vertical-offset="0" max-vertical-offset="528">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="616">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21917808" vertical-offset="0" max-vertical-offset="1680">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#618#741#0#RHTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="1.0354391" vertical-offset="196" max-vertical-offset="1456">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hr/config/careercodes/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="675">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="75" />
+        <state vertical-scroll-proportion="-8.484848" vertical-offset="0" max-vertical-offset="644">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35967302" vertical-offset="0" max-vertical-offset="1272">
-          <caret line="11" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6355555" vertical-offset="0" max-vertical-offset="1248">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding />
->>>>>>> origin/master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="644">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
-=======
-        <state vertical-scroll-proportion="-12.363636" vertical-offset="0" max-vertical-offset="552">
-          <caret line="17" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
->>>>>>> origin/master
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1484">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="616">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/offices/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.090909" vertical-offset="0" max-vertical-offset="1512">
-          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/offices/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7133758" vertical-offset="0" max-vertical-offset="628">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/offices/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17834395" vertical-offset="0" max-vertical-offset="628">
-          <caret line="4" column="77" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/offices/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19546248" vertical-offset="0" max-vertical-offset="1988">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1932">
-          <caret line="19" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/countries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5885023" vertical-offset="1235" max-vertical-offset="2240">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/departments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2240">
-          <caret line="58" column="86" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="86" />
-=======
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1272">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="6" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="-15.272727" vertical-offset="0" max-vertical-offset="1932">
+          <caret line="19" column="15" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/divisions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/images/avatar9.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/avatar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/pages/media/bg/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/pages/media/users/avatar80_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/config/countries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1523" max-vertical-offset="2240">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="0.10741688" vertical-offset="0" max-vertical-offset="1624">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/ministries_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/hr/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="2240">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="528">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/nations_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150422092038_create_hr_function_employees.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="2240">
-          <caret line="58" column="82" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="82" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53333336" vertical-offset="0" max-vertical-offset="675">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="2.0538921" vertical-offset="0" max-vertical-offset="2296">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/offices_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/hr/function/employee.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1148" max-vertical-offset="2240">
-          <caret line="58" column="82" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="82" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7826087" vertical-offset="0" max-vertical-offset="552">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="39" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="1" column="104" selection-start-line="1" selection-start-column="104" selection-end-line="1" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/provinces_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/hr/employee/employeeinfo_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="2240">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="695">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/religions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/hr/function/employees_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.720121" vertical-offset="1148" max-vertical-offset="2240">
-          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/certifications/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14222223" vertical-offset="0" max-vertical-offset="1680">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="e#633#756#0#RHTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2240">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hr/config/nations/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/hr/config/careercodes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="6" />
->>>>>>> origin/master
+        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2240">
+          <caret line="66" column="70" selection-start-line="66" selection-start-column="70" selection-end-line="66" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/hr/config/careercode.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hr/function/employees/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6979969" vertical-offset="1451" max-vertical-offset="2520">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
           <folding />
         </state>
       </provider>

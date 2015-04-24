@@ -1,0 +1,84 @@
+<!-- BEGIN PAGE BREADCRUMB -->
+<ul class="page-breadcrumb breadcrumb">
+  <li>
+    <a href="#">Home</a><i class="fa fa-circle"></i>
+  </li>
+  <li>
+    <a href="layout_blank_page.html">Features</a>
+    <i class="fa fa-circle"></i>
+  </li>
+  <li class="active">
+    Blank Page Layout
+  </li>
+</ul>
+<!-- END PAGE BREADCRUMB -->
+<!-- BEGIN PORTLET-->
+<div class="portlet light">
+  <div class="portlet-title">
+    <div class="caption">
+      <i class="fa fa-user font-blue-steel"></i>
+      <span class="caption-subject font-blue-steel bold uppercase">ប្រវត្តិរូបមន្ត្រី</span>
+    </div>
+    <div class="actions">
+      <%= link_to raw("<i class='fa fa-plus'></i>  បន្ថែម"), new_hr_function_employee_path , :class => "btn btn-circle btn-default" %>
+    </div>
+
+  </div>
+  <div class="portlet-body form-body">
+    <div class="row">
+      <div class="form-group">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="portlet-input">
+            <div class="input-icon right">
+              <i class="fa fa-search"></i>
+              <%= form_for('hr/employee/',:method => :get) do |g| %>
+                  <%= g.text_field(:search,:class => 'form-control form-control-solid',
+                                   :placeholder => "ស្វែងរក...") %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="portlet-body">
+        <%	if @hr_function_employees.blank?  %>
+            <div class="alert alert-danger">
+              <p id="notice">គ្មានទិន្នន័យនៅក្នុងប្រព័ន្ធ</p>
+            </div>
+        <% end %>
+      </div>
+
+  </div>
+</div>
+<!-- END PORTLET-->
+<div class="row">
+  <% @hr_function_employees.each do |hr_function_employee| %>
+  <div class="col-md-3">
+    <div class="portlet light profile-sidebar-portlet">
+      <!-- SIDEBAR USERPIC -->
+      <div class="profile-userpic">
+        <%= image_tag("pages/media/users/avatar80_1.jpg",:class => "img-responsive", :alt => "Picture Profile") %>
+      </div>
+      <!-- END SIDEBAR USERPIC -->
+      <!-- SIDEBAR USER TITLE -->
+      <div class="profile-usertitle">
+        <div class="profile-usertitle-name">
+          <%=	 hr_function_employee.khfirstname + " " + hr_function_employee.khlastname %>
+        </div>
+        <div class="profile-usertitle-job">
+          <%	 @careercode = Hr::Config::Careercode.find(hr_function_employee) %>
+          <%=	 @careercode.khtitle %>
+        </div>
+      </div>
+      <!-- END SIDEBAR USER TITLE -->
+      <!-- SIDEBAR BUTTONS -->
+      <div class="profile-userbuttons" style="padding-bottom: 25px;">
+        <%= link_to raw("<i class='fa fa-file-text-o'></i> ពត៌មានលំអិត"), hr_function_employee, :class => "btn btn-circle green-haze btn-sm" %>
+        <%= link_to raw("<i class='fa fa-pencil'></i> កែប្រែពត៌មាន"), edit_hr_function_employee_path(hr_function_employee), :class => "btn btn-circle btn-danger btn-sm" %>
+      </div>
+      <!-- END SIDEBAR BUTTONS -->
+    </div>
+  </div>
+  <!-- END PORTLET MAIN -->
+  <% end %>
+</div>
