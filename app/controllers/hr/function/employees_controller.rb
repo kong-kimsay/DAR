@@ -15,10 +15,25 @@ class Hr::Function::EmployeesController < ApplicationController
   # GET /hr/function/employees/new
   def new
     @hr_function_employee = Hr::Function::Employee.new
+    @hr_config_country = Hr::Config::Country.select("id,code,title,khtitle")
+    @hr_config_nation = Hr::Config::Nation.select("id,code,title,khtitle")
+    @hr_config_religion = Hr::Config::Religion.select("id,code,title,khtitle")
+    @hr_config_transportation = Hr::Config::Transportation.select("id,code,title,khtitle")
+    @hr_config_initial = Hr::Config::Initial.select("id,code,title,khtitle")
+    @hr_config_marital = Hr::Config::Marital.select("id,code,title,khtitle")
+    @hr_config_bloodtype = Hr::Config::BloodType.select("id,code,title,khtitle")
+
   end
 
   # GET /hr/function/employees/1/edit
   def edit
+    @hr_config_country = Hr::Config::Country.select("id,code,title,khtitle")
+    @hr_config_nation = Hr::Config::Nation.select("id,code,title,khtitle")
+    @hr_config_religion = Hr::Config::Religion.select("id,code,title,khtitle")
+    @hr_config_transportation = Hr::Config::Transportation.select("id,code,title,khtitle")
+    @hr_config_initial = Hr::Config::Initial.select("id,code,title,khtitle")
+    @hr_config_marital = Hr::Config::Marital.select("id,code,title,khtitle")
+    @hr_config_bloodtype = Hr::Config::BloodType.select("id,code,title,khtitle")
   end
 
   # POST /hr/function/employees
@@ -61,6 +76,10 @@ class Hr::Function::EmployeesController < ApplicationController
     end
   end
 
+  def country
+    "#{@hr_cofig_country.khtitle} | #{@hr_cofig_country.title}"
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_hr_function_employee
@@ -69,6 +88,6 @@ class Hr::Function::EmployeesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def hr_function_employee_params
-      params.require(:hr_function_employee).permit(:code, :firstname, :lastname, :khfirstname, :khlastname)
+      params.require(:hr_function_employee).permit(:code, :firstname, :lastname, :khfirstname, :khlastname,:Country_id,:Nation_id, :image)
     end
 end

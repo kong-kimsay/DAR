@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150424031641) do
+ActiveRecord::Schema.define(version: 20150518080941) do
 
   create_table "hr_config_blood_types", force: true do |t|
     t.string   "code"
@@ -158,6 +158,18 @@ ActiveRecord::Schema.define(version: 20150424031641) do
   end
 
   create_table "hr_config_languages", force: true do |t|
+    t.string   "code"
+    t.string   "title"
+    t.string   "khtitle"
+    t.text     "description"
+    t.string   "khdescription"
+    t.integer  "usercreate"
+    t.integer  "userupdate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "hr_config_maritals", force: true do |t|
     t.string   "code"
     t.string   "title"
     t.string   "khtitle"
@@ -335,6 +347,34 @@ ActiveRecord::Schema.define(version: 20150424031641) do
     t.string   "UserUpdate"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
+
+  create_table "sys_function_users", force: true do |t|
+    t.string   "username",               default: "", null: false
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "employee_id",            default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+  end
+
+  add_index "sys_function_users", ["email"], name: "index_sys_function_users_on_email", unique: true, using: :btree
+  add_index "sys_function_users", ["reset_password_token"], name: "index_sys_function_users_on_reset_password_token", unique: true, using: :btree
 
 end

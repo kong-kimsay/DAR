@@ -2,6 +2,22 @@ Rails.application.routes.draw do
 
   namespace :hr do
     namespace :config do
+      resources :maritals
+    end
+  end
+
+  namespace :sys do
+  namespace :function do
+    get 'lock/new'
+    end
+  end
+
+  get '/lock' => "sys/function/lock#new"
+
+  devise_for :users,controllers: { sessions: "users/sessions" }, class_name: "Sys::Function::User", path: "", path_names: { sign_in: 'login', sign_out: 'logout', password: 'password', confirmation: 'verification', unlock: 'unlock', registration: 'register', sign_up: 'signup' }
+
+  namespace :hr do
+    namespace :config do
       resources :relationships
     end
   end
@@ -137,6 +153,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
    root 'welcome#index'
+
    get 'welcome/' => 'welcome#index'
    #get 'hr/employee/' => 'hr/employee/employeeinfo#index'
 

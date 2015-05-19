@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -41,3 +41,12 @@ gem 'spring',        group: :development
 # Custom Gem files
 gem 'font-awesome-rails', '~> 4.3.0.0'
 
+gem 'carrierwave'
+
+# gem 'bcrypt-ruby', '~> 3.1.5', :require => 'bcrypt'
+
+gem 'rails-footnotes',:group => :development
+
+gem 'devise'
+
+gem "paperclip", "~> 4.2"

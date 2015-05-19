@@ -10,6 +10,7 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 
+//IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip
 //= require jquery
 //= require jquery_ujs
 //= require global/plugins/jquery.min
@@ -21,6 +22,8 @@
 //= require global/plugins/jquery.blockui.min
 //= require global/plugins/jquery.cokie.min
 //= require global/plugins/uniform/jquery.uniform.min
+//END CORE PLUGINS
+//BEGIN PAGE LEVEL PLUGINS
 //= require global/plugins/jqvmap/jqvmap/jquery.vmap
 //= require global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia
 //= require global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world
@@ -28,12 +31,16 @@
 //= require global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany
 //= require global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa
 //= require global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata
+//= require global/plugins/bootstrap-fileinput/bootstrap-fileinput.js
 //= require global/plugins/morris/morris.min
 //= require global/plugins/morris/raphael-min
 //= require global/plugins/jquery.sparkline.min
+//END PAGE LEVEL PLUGINS
+//BEGIN PAGE LEVEL SCRIPTS
 //= require global/metronic
 //= require layout
 //= require demo
 //= require pages/index3
 //= require pages/tasks
 //= require turbolinks
+//END PAGE LEVEL SCRIPTS

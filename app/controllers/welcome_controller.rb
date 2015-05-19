@@ -4,5 +4,5 @@ class WelcomeController < ApplicationController
   def index
   	@title = 'ក្តាពត៌មាន'
   	@subtitle = 'ពត៌មានថ្មី​ៗប្រចាំនាយកដ្ឋានអាមេរិក'
-  end
+	end
 end

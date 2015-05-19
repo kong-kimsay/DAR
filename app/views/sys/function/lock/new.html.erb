@@ -1,0 +1,15 @@
+<div class="pull-left lock-avatar-block">
+  <%= image_tag @employee.image.url, class: "lock-avatar"%>
+</div>
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    <div class="lock-form pull-left">
+  <h4><%= @username.humanize %></h4>
+  <div class="form-group">
+    <%=	 f.hidden_field :login, value: @username %>
+    <%= f.password_field :password, autocomplete: "off",  placeholder: "Password", class: "form-control placeholder-no-fix"%>
+  </div>
+  <div class="form-actions">
+    <%= f.submit "Log in", class: "btn btn-success uppercase" %>
+  </div>
+  </div>
+<% end %>

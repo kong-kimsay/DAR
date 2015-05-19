@@ -20,6 +20,7 @@
  *= require plugins/morris
  *= require pages/profile
  *= require pages/tasks
+ *= require pages/login3
  *= require global/components-rounded
  *= require global/plugins
  *= require layout

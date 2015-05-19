@@ -11,27 +11,395 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :code %><br>
-    <%= f.text_field :code %>
+<!-- BEGIN PROFILE SIDEBAR -->
+<div class="profile-sidebar" style="width: 250px;">
+  <!-- PORTLET MAIN -->
+  <div class="portlet light profile-sidebar-portlet">
+    <!-- SIDEBAR USERPIC -->
+    <div class="profile-userpic">
+      <img src="../../assets/admin/pages/media/profile/profile_user.jpg" class="img-responsive" alt="">
+    </div>
+    <!-- END SIDEBAR USERPIC -->
+    <!-- SIDEBAR USER TITLE -->
+    <div class="profile-usertitle">
+      <div class="profile-usertitle-name">
+        Marcus Doe
+      </div>
+      <div class="profile-usertitle-job">
+        Developer
+      </div>
+    </div>
+    <!-- END SIDEBAR USER TITLE -->
+    <!-- SIDEBAR BUTTONS -->
+    <div class="profile-userbuttons">
+      <button type="button" class="btn btn-circle green-haze btn-sm">Follow</button>
+      <button type="button" class="btn btn-circle btn-danger btn-sm">Message</button>
+    </div>
+    <!-- END SIDEBAR BUTTONS -->
+    <!-- SIDEBAR MENU -->
+    <div class="profile-usermenu">
+      <ul class="nav">
+        <li>
+          <a href="extra_profile.html">
+            <i class="icon-home"></i>
+            Overview </a>
+        </li>
+        <li class="active">
+          <a href="extra_profile_account.html">
+            <i class="icon-settings"></i>
+            Account Settings </a>
+        </li>
+        <li>
+          <a href="page_todo.html" target="_blank">
+            <i class="icon-check"></i>
+            Tasks </a>
+        </li>
+        <li>
+          <a href="extra_profile_help.html">
+            <i class="icon-info"></i>
+            Help </a>
+        </li>
+      </ul>
+    </div>
+    <!-- END MENU -->
   </div>
-  <div class="field">
-    <%= f.label :firstname %><br>
-    <%= f.text_field :firstname %>
+  <!-- END PORTLET MAIN -->
+  <!-- PORTLET MAIN -->
+  <div class="portlet light">
+    <div>
+      <h4 class="profile-desc-title">About Marcus Doe</h4>
+      <span class="profile-desc-text"> Lorem ipsum dolor sit amet diam nonummy nibh dolore. </span>
+      <div class="margin-top-20 profile-desc-link">
+        <i class="fa fa-globe"></i>
+        <a href="http://www.keenthemes.com">www.keenthemes.com</a>
+      </div>
+      <div class="margin-top-20 profile-desc-link">
+        <i class="fa fa-twitter"></i>
+        <a href="http://www.twitter.com/keenthemes/">@keenthemes</a>
+      </div>
+      <div class="margin-top-20 profile-desc-link">
+        <i class="fa fa-facebook"></i>
+        <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
+      </div>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :lastname %><br>
-    <%= f.text_field :lastname %>
+  <!-- END PORTLET MAIN -->
+</div>
+<!-- END BEGIN PROFILE SIDEBAR -->
+<!-- BEGIN PROFILE CONTENT -->
+<div class="profile-content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="portlet light">
+        <div class="portlet-title tabbable-line">
+          <div class="caption caption-md">
+            <i class="icon-globe theme-font hide"></i>
+            <span class="caption-subject font-blue-madison bold uppercase">Profile Account</span>
+          </div>
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#tab_1_1" data-toggle="tab">ពត៌មានផ្ទាល់ខ្លួន |  Personal Info</a>
+            </li>
+            <li>
+              <a href="#tab_1_2" data-toggle="tab">ពត៌មានការងារ | Career Info</a>
+            </li>
+            <li>
+              <a href="#tab_1_3" data-toggle="tab">ពត៌មានគ្រួសារ | Family Info</a>
+            </li>
+            <li>
+              <a href="#tab_1_4" data-toggle="tab">កំណត់ភាព | Privacy Settings</a>
+            </li>
+          </ul>
+        </div>
+        <div class="portlet-body">
+          <div class="tab-content">
+            <!-- PERSONAL INFO TAB -->
+            <div class="tab-pane active" id="tab_1_1">
+              <!--<div class="form-group">-->
+              <!--<label class="control-label">First Name</label>-->
+              <!--<input type="text" placeholder="John" class="form-control"/>-->
+              <!--</div>-->
+              <div class="form-group">
+                <label class="control-label">កូដសំគាល់បុគ្គលិក | Employee Code</label>
+                <%= f.text_field :code, placeholder: "អត្តលេខមន្ត្រីរាជការ", class: "form-control" %>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-4">
+                  <label class="control-label">ភេទ​ | Gender</label>
+                  <%=	 f.select(:gender, [['ប្រុស | Male', "M"], ['ស្រី | Female', "F"]],{}, {class: 'form-control select2me'}) %>
+                </div>
+                <div class="form-group col-md-4">
+                  <label class="control-label">ងារ​ | Initial</label>
+                  <%= f.collection_select :title, @hr_config_initial, :id,:initial_name,{:prompt => 'សូមជ្រើសរើសងារ | Please select initial', include_blank: false}, class: "form-control" %>
+                </div>
+                <div class="form-group col-md-4">
+                  <label class="control-label">ស្ថានភាពគ្រួសារ | Marital Status</label>
+                  <%= f.collection_select :title, @hr_config_marital, :id,:marital_name,{:prompt => 'សូមជ្រើសរើសងារ | Please select marital', include_blank: false}, class: "form-control" %>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label">គោត្តនាម</label>
+                <%= f.text_field :khfirstname,placeholder: "ត្រកូល", class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">នាម</label>
+                <%= f.text_field :khlastname,placeholder: "ឈ្មេាះ", class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">First Name</label>
+                <%= f.text_field :firstname,placeholder: "Family Name", class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">Last Name</label>
+                <%= f.text_field :lastname,placeholder: "Given Name", class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ថ្ងៃខែឆ្នាំកំណើត​ | Data of birth</label>
+                <div class="input-group date date-picker" data-date-format="dd-mm-yyyy">
+                  <span class="input-group-btn">
+                    <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                  </span>
+                  <%=   f.text_field :dob, class: "form-control", readonly: true	  %>
+
+                </div>
+                <!-- /input-group -->
+											<span class="help-block">
+											ជ្រើសរើសកាលបរិច្ឆេក</span>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ទីកន្លែងកំណើត | Place of birth</label>
+                <%= f.text_area :pob,placeholder: "", class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ប្រទេស​ | Country</label>
+                <%= f.collection_select :Country_id, @hr_config_country, :id,:county_name,{:prompt => 'សូមជ្រើសរើសប្រទេស | Please select the country', include_blank: false}, class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ប្រជាជាតិ​ | Nation</label>
+                @hr_config_bloodtype
+                <%= f.collection_select :Nation_id, @hr_config_nation, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសប្រជាជាតិ | Please select the nation', include_blank: false}, class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">សាសនា​ | Religion</label>
+                <%= f.collection_select :Religion_id, @hr_config_religion, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសសាសនា | Please select the religion', include_blank: false}, class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">មធ្យោបាយធ្វើរដំណើរ​ | Transportation</label>
+                <%= f.collection_select :Transportation_id, @hr_config_transportation, :id,:transportation_name,{:prompt => 'សូមជ្រើសរើសមធ្យោបាយធ្វើរដំណើរ | Please select transportation', include_blank: false}, class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">លេខលិខិតឆ្លងដែន​ | Passport No</label>
+                <%= f.text_field :PassportNo, placeholder: "", class: "form-control" %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ថ្ងៃផុតកំណត់លិខិតឆ្លងដែន​ | Passport expire date</label>
+                <div class="input-group date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                  <span class="input-group-btn">
+                    <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                  </span>
+                  <%=   f.text_field :PassportExp, class: "form-control", readonly: true	  %>
+
+                </div>
+                <!-- /input-group -->
+											<span class="help-block">
+											ជ្រើសរើសកាលបរិច្ឆេក</span>
+              </div>
+              <div class="form-group">
+                <label class="control-label">លេខទិដ្ឋាការ​ | Visa No</label>
+                <%= f.text_field :PassportNo, placeholder: "", class: "form-control" %>
+              </div>
+                <div class="row">
+
+              <div class="form-group col-md-4">
+                  <label class="control-label">ថ្ងៃចេញទិដ្ឋាការ​ | Visa issue date</label>
+                  <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy">
+                    <span class="input-group-btn">
+                      <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                    </span>
+                    <%=   f.text_field :VisaIssue, class: "form-control", readonly: true	  %>
+                  </div>
+                  <!-- /input-group -->
+											<span class="help-block">
+											ជ្រើសរើសកាលបរិច្ឆេក </span>
+                </div>
+              <div class="form-group col-md-4">
+                  <label class="control-label">ថ្ងៃផុតកំណត់ទិដ្ឋាការ​ | Visa expire date</label>
+                  <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                    <span class="input-group-btn">
+                      <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+                    </span>
+                    <%=   f.text_field :VisaExpiry, class: "form-control", readonly: true	  %>
+                  </div>
+                  <!-- /input-group -->
+											<span class="help-block">
+											ជ្រើសរើសកាលបរិច្ឆេក </span>
+                </div>
+              <div class="form-group col-md-4">
+                  <label class="control-label">ថ្ងៃពន្យាទិដ្ឋាការ | Visa extend date</label>
+                  <div class="input-group input-medium date date-picker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                    <span class="input-group-btn">
+                      <button class="btn default" type="button"><i class="fa fa-calendar"></i></button>
+					</span>
+                    <%=   f.text_field :VisaExtend, class: "form-control", readonly: true	  %>
+                  </div>
+                  <!-- /input-group -->
+											<span class="help-block">
+											ជ្រើសរើសកាលបរិច្ឆេកផុតកំណត់ </span>
+                </div>
+                </div>
+              <div class="form-inline">
+                <div class="row">
+                  <div class="form-group col-md-4">
+                    <label class="control-label">អ៊ីម៉ែលការងារ​ | Professional Email</label><br>
+                    <%= f.text_field :email1, placeholder: "", class: "form-control input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">អ៊ីម៉ែលផ្ទាល់ខ្លួន​ | Personal Email</label><br>
+                    <%= f.text_field :email2, placeholder: "", class: "form-control  input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">ទូរសារ​ | Fax</label><br>
+                    <%= f.text_field :fax, placeholder: "", class: "form-control  input-medium" %>
+                  </div>
+                </div>
+
+              </div>
+              <br/>
+              <div class="form-inline">
+                <div class="row">
+                  <div class="form-group col-md-4">
+                    <label class="control-label">ទូរស័ព្ទខ្សែរទីមួយ​ | Phone line 1</label><br>
+                    <%= f.text_field :phone1, placeholder: "", class: "form-control input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">ទូរស័ព្ទខ្សែរទីពីរ​ | Phone line 2</label><br>
+                    <%= f.text_field :phone2, placeholder: "", class: "form-control  input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">លេខសំគាល់ទូរស័ព្ទលើតុ​ | Phone extension</label><br>
+                    <%= f.text_field :PhoneExt, placeholder: "", class: "form-control  input-medium" %>
+                  </div>
+                </div>
+              </div>
+              <br/>
+              <div class="form-inline">
+                <div class="row">
+                  <div class="form-group col-md-4">
+                    <label class="control-label">ទំងន់​ | Weight</label><br>
+                    <%= f.text_field :weight, placeholder: "", class: "form-control input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">កំពស់​ | Height</label><br>
+                    <%= f.text_field :height, placeholder: "", class: "form-control  input-medium" %>
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label class="control-label">ប្រភេទឈាម​ | Blood type</label><br>
+                    <%= f.collection_select :BloodType_id, @hr_config_bloodtype, :id,:blood_name,{:prompt => 'សូមជ្រើសរើសប្រភេទឈាម | Please select the nation', include_blank: false}, class: "form-control input-medium" %>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- END PERSONAL INFO TAB -->
+            <!-- CHANGE AVATAR TAB -->
+            <div class="tab-pane" id="tab_1_2">
+              <div class="form-group">
+                <label class="control-label">ក្រសួង​ | Ministry</label>
+                <%= f.collection_select :Religion_id, @hr_config_religion, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសសាសនា | Please select the religion', include_blank: false}, class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">អគ្គនាយកដ្ឋាន​ | Religion</label>
+                <%= f.collection_select :Religion_id, @hr_config_religion, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសសាសនា | Please select the religion', include_blank: false}, class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">នាយកដ្ឋាន​ | Religion</label>
+                <%= f.collection_select :Religion_id, @hr_config_religion, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសសាសនា | Please select the religion', include_blank: false}, class: "form-control"  %>
+              </div>
+              <div class="form-group">
+                <label class="control-label">ការិយាល័យ​ | Religion</label>
+                <%= f.collection_select :Religion_id, @hr_config_religion, :id,:nation_name,{:prompt => 'សូមជ្រើសរើសសាសនា | Please select the religion', include_blank: false}, class: "form-control"  %>
+              </div>
+            </div>
+            <!-- END CHANGE AVATAR TAB -->
+            <!-- CHANGE PASSWORD TAB -->
+            <div class="tab-pane" id="tab_1_3">
+                <div class="form-group">
+                  <label class="control-label">Current Password</label>
+                  <input type="password" class="form-control"/>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">New Password</label>
+                  <input type="password" class="form-control"/>
+                </div>
+                <div class="form-group">
+                  <label class="control-label">Re-type New Password</label>
+                  <input type="password" class="form-control"/>
+                </div>
+                <div class="margin-top-10">
+                  <a href="#" class="btn green-haze">
+                    Change Password </a>
+                  <a href="#" class="btn default">
+                    Cancel </a>
+                </div>
+
+            </div>
+            <!-- END CHANGE PASSWORD TAB -->
+            <!-- PRIVACY SETTINGS TAB -->
+            <div class="tab-pane" id="tab_1_4">
+                <table class="table table-light table-hover">
+                  <tr>
+                    <td>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus..
+                    </td>
+                    <td>
+                      <label class="uniform-inline">
+                        <input type="radio" name="optionsRadios1" value="option1"/>
+                        Yes </label>
+                      <label class="uniform-inline">
+                        <input type="radio" name="optionsRadios1" value="option2" checked/>
+                        No </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Enim eiusmod high life accusamus terry richardson ad squid wolf moon
+                    </td>
+                    <td>
+                      <label class="uniform-inline">
+                        <input type="checkbox" value=""/> Yes </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Enim eiusmod high life accusamus terry richardson ad squid wolf moon
+                    </td>
+                    <td>
+                      <label class="uniform-inline">
+                        <input type="checkbox" value=""/> Yes </label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Enim eiusmod high life accusamus terry richardson ad squid wolf moon
+                    </td>
+                    <td>
+                      <label class="uniform-inline">
+                        <input type="checkbox" value=""/> Yes </label>
+                    </td>
+                  </tr>
+                </table>
+                <!--end profile-settings-->
+                <div class="margin-top-10">
+                    <%= f.submit class: "btn green-haze"%>
+                  <a href="#" class="btn default">
+                    Cancel </a>
+                </div>
+            </div>
+            <!-- END PRIVACY SETTINGS TAB -->
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="field">
-    <%= f.label :khfirstname %><br>
-    <%= f.text_field :khfirstname %>
-  </div>
-  <div class="field">
-    <%= f.label :khlastname %><br>
-    <%= f.text_field :khlastname %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+</div>
+<!-- END PROFILE CONTENT -->
 <% end %>

@@ -4,6 +4,10 @@ rails g scaffold “location and name of scaffold” code:string title:string
 khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
 
 
-rails g scaffold hr/config/BloodType code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
+rails g scaffold hr/config/marital code:string title:string khtitle:string description:text khdescription:string usercreate:integer userupdate:integer
 
 rails g scaffold hr/function/employee code:string firstname:sting lastname:string khfirstname:string khlastname:string
+
+rails g scaffold sys/function/user user:string password:string password_salt:string employee_id:integer group:string date_create:datetime date_update:datetime
+
+rails destroy scaffold sys/function/user
